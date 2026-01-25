@@ -5,7 +5,7 @@
 
 GitHub Pages link: https://br815.github.io/CS1_Portfolio/
 
-This repository contains university programming assignments from my [Computer Science I course](/CS1337/README.md).
+This repository contains university programming assignments from my [Computer Science I course](/CS1337/readme.md).
 
 The purpose of this repository is archival and educational:
 - to track my progress learning C++
@@ -21,7 +21,7 @@ The purpose of this repository is archival and educational:
 ## Instructions to Install MinGW
 A C++ compiler is necessary to run these assignments (eg. the g++ compiler in MinGW, a Microsoft Windows port of the GNU Compiler Collection).
 
-To install MinGW on Windows 11 or less, follow these instructions:
+To install MinGW on Windows 11 or less, follow [these instructions](/CS1337/Instructions/Eclipse_for_Windows_with_MinGW.pdf) (jump to Pages 3-4 of the linked PDF):
 1. Download the latest version of the MinGW installer from [this SourceForge link](https://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win64/Personal%20Builds/mingw-builds/).
 2. Run the installer. On the second installer screen, make sure to select the X86_64 architecture. Don’t make any other changes with the installer.
 3. Add the MinGW compiler the “Path” Environment Variable. [This YouTube video](https://www.youtube.com/watch?v=uadGsNA6h5Q) has the steps to follow:
