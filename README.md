@@ -53,6 +53,6 @@ To install MinGW on Windows 11 or less, follow these instructions:
     <!-- CODE END -->
 
 ## Notes
-As a learning exercise, some of my code explores alternative designs that go beyond what was required for these courses.
+As a learning exercise, some of my code explores alternative designs that go beyond what was required for this course.
 
 This code is not intended as production software.
