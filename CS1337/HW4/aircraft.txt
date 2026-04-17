@@ -1,0 +1,33 @@
+// Commands information:
+// n ‐ create a new aircraft. If the first arg is 0, then parameters are
+// int: number of engines
+// int: seat capacity
+//
+// if the first arg is 1, then the parameters are:
+// int: number of engines
+// int: seat capacity
+// String: range and speed description
+//
+// if the first arg is 2 then the parameters are:
+// String: Manufacturer
+// String: Performance capability description
+//
+// if the first arg is 3 then the parameters are:
+// int: number of engines
+// String: Freight Company
+// String: Cargo Capacity
+//
+n 0, 2, 6 // New Aircraft: 2 engines, seats 6
+CS 1337.502,504 F19 Program #4 Page 4 of 4
+n 0, 4, 200 // New Aircraft: 4 engines, seats 200
+n 1, 1, 1, "Top Speed: Mach 1.2, Max Range: 400 Miles"
+n 1, 2, 2, "Top Speed: Mach 2, Max Range: 1200 Miles"
+n 2, "Zivko Edge 540", "Cruise: 333 km/h, Max Roll Rate: 420 degrees/sec, G-limit: 10"
+n 2, "Pitts Special S-1S", "180HP, certified S-1C for competition aerobatics"
+n 3, 4, "UPS", "100 UPS Shipping containers"
+n 3, 4, "FedEx", "14,000 pounds"
+//
+p 0
+p 1
+p 2
+p 3
