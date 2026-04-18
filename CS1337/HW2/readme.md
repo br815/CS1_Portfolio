@@ -20,7 +20,7 @@ g++ main.cpp doTasks.cpp
 
 ## Source Files
 * [main.cpp](/CS1337/HW2/main.cpp): program driver containing main()
-* [doTasks.cpp](/CS1337/HW2/doTasks.cpp): implementation file containing 6 function bodies
+* [doTasks.cpp](/CS1337/HW2/doTasks.cpp): implementation of 6 functions
 
 ## Header File
 * [doTasks.h](/CS1337/HW2/doTasks.h): contains 6 function prototypes

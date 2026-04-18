@@ -21,7 +21,7 @@ gcc drinkMachineDriver.c drinkMachine.c
 ## Source Files
 * [drinkMachineDriver.c](/CS1337/HW3/drinkMachineDriver.c): program driver containing main() and 1 helper function
 * [testDriver.c](/CS1337/HW3/testDriver.c): test file containing test program driver
-* [drinkMachine.c](/CS1337/HW3/drinkMachine.c): implementation file containing 17 function bodies
+* [drinkMachine.c](/CS1337/HW3/drinkMachine.c): implementation of 17 functions
 
 ## Header File
 * [drinkMachine.h](/CS1337/HW3/drinkMachine.h): contains 2 struct definitions, 2 enum definitions, 17 function prototypes, and 1 driver helper function prototype

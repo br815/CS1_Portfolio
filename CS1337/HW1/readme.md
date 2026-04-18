@@ -20,7 +20,7 @@ g++ main.cpp amortize.cpp
 
 ## Source Files
 * [main.cpp](/CS1337/HW1/main.cpp): program driver containing main()
-* [amortize.cpp](/CS1337/HW1/amortize.cpp): implementation file containing 1 function body
+* [amortize.cpp](/CS1337/HW1/amortize.cpp): implementation of 1 function
 
 ## Header File
 * [amortize.h](/CS1337/HW1/amortize.h): contains 1 function prototype

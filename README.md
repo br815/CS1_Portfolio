@@ -8,7 +8,7 @@ GitHub Pages link: https://br815.github.io/CS1_Portfolio/
 This repository contains university programming assignments from my [Computer Science I course](/CS1337).
 
 The purpose of this repository is archival and educational:
-- to track my progress learning C++ and C
+- to track my progress learning C and C++
 - to practice writing clear, correct, and well-structured code
 - to reflect on design decisions and showcase my improved understanding of the language
 
