@@ -14,10 +14,10 @@ The purpose of this repository is archival and educational:
 
 ## Highlights
 - Control structures and structured data types
-- Object-oriented design and programming paradigms
-- Defining and using classes
 - Basic algorithms for searching and sorting techniques
-- Structured data types and memory management techniques in C
+- Object-oriented design, programming paradigms, and design patterns
+- Defining and using classes
+- Structured data types and memory management techniques in C and C++
 
 ## Instructions to Install MinGW
 Compilers for C and C++ are necessary to run these assignments (eg. the gcc and g++ compilers in MinGW, a Microsoft Windows port of the GNU Compiler Collection).
