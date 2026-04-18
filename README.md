@@ -14,7 +14,7 @@ The purpose of this repository is archival and educational:
 
 ## Highlights
 - Control structures and structured data types
-- Basic algorithms for searching and sorting techniques
+- Basic algorithmic searching and sorting techniques
 - Object-oriented design, defining and using classes
 - Programming paradigms and design patterns
 - Structured data types and memory management techniques in C and C++
