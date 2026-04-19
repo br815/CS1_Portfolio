@@ -19,6 +19,10 @@ using namespace std;
 FileLogger::FileLogger() : CS1337Logger()
 {
 	fout.open(FILENAME);
+	if (!fout)
+    {
+        cerr << "ERROR: Could not open file: " << FILENAME << endl;
+    }
 }
 
 

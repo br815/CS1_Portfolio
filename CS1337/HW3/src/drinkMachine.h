@@ -63,7 +63,8 @@ void dumpDrinkMachine(struct DrinkMachine* ptrDrinkMachine);
 void dumpDrinkItemForBuyer(struct DrinkItem* ptrDrinkItem);
 void dumpDrinkMachineForBuyer(struct DrinkMachine* ptrDrinkMachine);
 
-// 1 FUNCTION PROTOTYPE FOR DRIVER FUNCTION
+// 2 FUNCTION PROTOTYPES FOR DRIVER FUNCTIONS
 void drinkMachineDriver();
+int testDriver();
 
 #endif						// end of "if not defined" ifndef block

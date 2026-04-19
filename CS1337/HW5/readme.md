@@ -6,30 +6,35 @@
 This is the repository for [CS 1337/HW5](/CS1337/HW5).
 
 ## Execution Instructions
-Open terminal and run:
+Open terminal while in `CS1_Portfolio` and run:
 <!-- CODE START -->
 ```
-cd CS1337/HW5
+cd CS1337/HW5/src
 g++ LogSingleton-Test.cpp CS1337Logger.cpp FileLogger.cpp ScreenLogger.cpp LogSingleton.cpp
 .\a.exe
 ```
 <!-- CODE END -->
+This compilation instruction produces an executable directly in the `src` folder.
+
+Alternative compilation instructions can be followed, if desired, to produce the executable elsewhere (eg. in a `build` folder).
 
 ## Homework Instructions
 * [HW 5: Design Patterns](/CS1337/HW5/HW5_DesignPatterns.pdf)
 
-## Source Files
-* [LogSingleton-Test.cpp](/CS1337/HW5/LogSingleton-Test.cpp): program driver containing main() and 4 helper functions
-* [CS1337Logger.cpp](/CS1337/HW5/CS1337Logger.cpp): defines 4 of 6 functions for the abstract base class
-* [FileLogger.cpp](/CS1337/HW5/FileLogger.cpp): defines 4 functions for a subclass
-* [ScreenLogger.cpp](/CS1337/HW5/ScreenLogger.cpp): defines 4 functions for a subclass
-* [LogSingleton.cpp](/CS1337/HW5/LogSingleton.cpp): defines 4 of 5 functions for a class
+## src Folder
+### Source Files
+* [LogSingleton-Test.cpp](/CS1337/HW5/src/LogSingleton-Test.cpp): program driver containing `main()` and 4 helper functions
+* [CS1337Logger.cpp](/CS1337/HW5/src/CS1337Logger.cpp): defines 4 of 6 functions for the abstract base class
+* [FileLogger.cpp](/CS1337/HW5/src/FileLogger.cpp): defines 4 functions for a subclass
+* [ScreenLogger.cpp](/CS1337/HW5/src/ScreenLogger.cpp): defines 4 functions for a subclass
+* [LogSingleton.cpp](/CS1337/HW5/src/LogSingleton.cpp): defines 4 of 5 functions for a class
 
-## Header Files
-* [CS1337Logger.h](/CS1337/HW5/CS1337Logger.h): contains the class definition of the abstract base class, including 2 inline functions and 1 pure virtual function defined in subclasses
-* [FileLogger.h](/CS1337/HW5/FileLogger.h): contains the class definition of a subclass
-* [ScreenLogger.h](/CS1337/HW5/ScreenLogger.h): contains the class definition of a subclass
-* [LogSingleton.h](/CS1337/HW5/LogSingleton.h): contains the class definition of a class, including 1 inline function
+### Header Files
+* [CS1337Logger.h](/CS1337/HW5/src/CS1337Logger.h): contains the class definition of the abstract base class, including 2 inline functions and 1 pure virtual function defined in subclasses
+* [FileLogger.h](/CS1337/HW5/src/FileLogger.h): contains the class definition of a subclass
+* [ScreenLogger.h](/CS1337/HW5/src/ScreenLogger.h): contains the class definition of a subclass
+* [LogSingleton.h](/CS1337/HW5/src/LogSingleton.h): contains the class definition of a class, including 1 inline function
 
 ## Output File
+Output files should be created using their relative path (ie. with the prefix `../`).
 * [Log.txt](/CS1337/HW5/Log.txt): output file

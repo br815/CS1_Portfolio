@@ -493,9 +493,10 @@ void readFileAndBuildAircraft(string inputFileName)
 	Descr:			This function runs readFileAndBuildAircraft() on an input file.
 	Param:    		None.
 	Return:			None. */
-void testAircraft() {
+void testAircraft()
+{
 	ifstream inputFile;
-	// input a file name
+	// input a file name: the input files provided are ../aircraft.txt or ../test.txt
 	string inputFileName;
 	cout << "Enter the input file name: ";
 	cin >> inputFileName;

@@ -41,7 +41,7 @@ struct DrinkMachine* create()
 {
 	// string (char array) for the input file name
 	char inputFileName[100];
-	// prompt for and read in inputFileName
+	// prompt for and read in inputFileName: the input file provided is ../drinks.txt
 	printf("Enter input file name: ");
 	fflush(stdout);
 	scanf("%s", inputFileName);

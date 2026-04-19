@@ -4,6 +4,7 @@
 	drinkMachineDriver.c:	This source file is the main driver of the program. It contains 1 helper function in addition to main(). */
 
 #include "drinkMachine.h"		// header file containing the function prototypes, struct definitions, and enum definitions
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -13,18 +14,19 @@
 
 /*	Function 1:		main()
 	Descr:			This function simply calls the driver function.
-	Input:			None.
+	Param:			None.
 	Return:			None. */
 int main(void)
 {
 	drinkMachineDriver();
+	
 }
 
 
 
 /*	Function 2:		drinkMachineDriver()
 	Descr:			This function is the driver function called by main().
-	Input:			None.
+	Param:			None.
 	Return:			None. */
 void drinkMachineDriver()
 {

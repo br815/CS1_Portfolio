@@ -20,7 +20,7 @@ private:
 	// output file stream object
 	ofstream fout;
 	// name of output file
-	const string FILENAME = "Log.txt";
+	const string FILENAME = "../Log.txt";
 
 public:
 	// constructor

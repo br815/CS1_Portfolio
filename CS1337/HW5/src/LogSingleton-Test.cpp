@@ -148,11 +148,11 @@ int singletonTest()
 int main()
 {
 
-	/*
+	// these 3 lines can commented or uncommented to toggle creation of Log.txt
 	FileLogger* logger = new FileLogger;
 	logger->setLoggingEnabled(true);
 	logger->logMessage("testing testing testing");
-	*/
+	
 
 	singletonTest();
 
