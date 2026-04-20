@@ -20,24 +20,28 @@ The purpose of this repository is archival and educational:
 - Structured data types and memory management techniques in C and C++
 
 ## Instructions to Install MinGW
-Compilers for C and C++ are necessary to run these assignments (eg. the gcc and g++ compilers in MinGW, a Microsoft Windows port of the GNU Compiler Collection).
+Compilers for C and C++ are necessary to run these assignments (eg. the `gcc` and `g++` compilers in MinGW, a Microsoft Windows port of the GNU Compiler Collection).
 
 To install MinGW on Windows 11 or less, follow [these instructions](/CS1337/Eclipse_for_Windows_with_MinGW.pdf) (jump to Pages 3-4 of the linked PDF):
 1. Download the latest version of the MinGW installer from [this SourceForge link](https://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win64/Personal%20Builds/mingw-builds/).
-2. Run the installer. On the second installer screen, make sure to select the X86_64 architecture. Don’t make any other changes with the installer.
-3. Add the MinGW compiler the “Path” Environment Variable. [This YouTube video](https://www.youtube.com/watch?v=uadGsNA6h5Q) has the steps to follow:
-    * Open Control Panel >> System and Security >> System >> Advanced System Settings.\
-    (Alternatively, open Settings >> System >> About >> Advanced System Settings.)
-    * In Advanced System Settings, go to Environment Variables. In Environment Variables, look down at System Variables and scroll until you reach “Path”. Select “Path” and hit Edit.
-    * Once you’ve opened Edit Environment Variable, find the file path for MinGW’s bin folder in your File Explorer. It should look similar to:
+2. Run the installer. On the second installer screen, make sure to select the `X86_64` architecture. Don’t make any other changes with the installer.
+3. Add the MinGW compiler the `Path` Environment Variable. [This YouTube video](https://www.youtube.com/watch?v=uadGsNA6h5Q) has the steps to follow:
+    * Open `Control Panel >> System and Security >> System >> Advanced System Settings`.\
+    (Alternatively, open `Settings >> System >> About >> Advanced System Settings`.)\
+    This opens a window for `System Properties`.
+    * In `System Properties`, go to `Environment Variables`.\
+    In `Environment Variables`, look down at `System variables` and scroll until you reach `Path`.\
+    Select `Path` and hit `Edit`.
+    * Once you’ve opened `Edit environment variable`, find the file path for Java JDK’s `/bin` folder in your File Explorer and copy it.\
+    It should look similar to:
     <!-- CODE START -->
     ```
     C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin
     ```
     <!-- CODE END -->
-    * Copy the file path for bin, go back to Edit Environment Variable, hit “New” and paste the file path for bin.
-    * Then hit OK in Edit Environment Variable, hit OK in Environment Variables, and hit OK in System Properties.
-    * MinGW should now be properly installed and locatable within Path. To test in Command Prompt, run:
+    * Go back to `Edit environment variable`, hit `New`, and paste the file path for `/bin`.
+    * Then hit `OK` in `Edit environment variable`, hit `OK` in `Environment Variables`, and hit `OK` in `System Properties`.
+    * MinGW should now be properly installed and locatable within `Path`. To test in Command Prompt, run:
     <!-- CODE START -->
     ```
     g++ --version
