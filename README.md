@@ -21,7 +21,7 @@ The purpose of this repository is archival and educational:
 ## Instructions to Install MinGW
 Compilers for C and C++ are necessary to run these assignments (eg. the `gcc` and `g++` compilers in MinGW, a Microsoft Windows port of the GNU Compiler Collection).
 
-To install MinGW on Windows 11 or less, follow [these instructions](/CS1337/Eclipse_for_Windows_with_MinGW.pdf) (jump to Pages 3-4 of the linked PDF):
+To install MinGW on Windows 11 or less, follow [these instructions](/CS1337/Eclipse_for_Windows_with_MinGW.pdf) (refer to Pages 3-4 of the linked PDF):
 1. Download the latest version of the MinGW installer from [this SourceForge link](https://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win64/Personal%20Builds/mingw-builds/).
 2. Run the installer. On the second installer screen, make sure to select the `X86_64` architecture. Don’t make any other changes with the installer.
 3. Add the MinGW compiler the `Path` Environment Variable. [This YouTube video](https://www.youtube.com/watch?v=uadGsNA6h5Q) has the steps to follow:
@@ -55,6 +55,9 @@ To install MinGW on Windows 11 or less, follow [these instructions](/CS1337/Ecli
     warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
     ```
     <!-- CODE END -->
+    Run `gcc --version` to see similar output for the C compiler.
+
+After installing MinGW and adding it to `Path`, make sure to restart your IDE to avoid compilation errors.
 
 ## Homework Instructions & Readme Files
 * HW 1
