@@ -57,21 +57,25 @@ To install MinGW on Windows 11 or less, follow [these instructions](/CS1337/Ecli
     ```
     <!-- CODE END -->
 
-## Homework Instructions & READMEs
-* [HW 1: Introduction to Multi-File Projects](/CS1337/HW1/HW1_IntroToMultiFileProjects.pdf)
-* [HW 2: Searching and Sorting on Arrays](/CS1337/HW2/HW2_SearchingSortingArrays.pdf)
-* [HW 3: Memory Management in C](/CS1337/HW3/HW3_MemMgmtC.pdf)
-* [HW 4: Classes, Inheritance, and Polymorphism](/CS1337/HW4/HW4_Classes.pdf)
-* [HW 5: Design Patterns](/CS1337/HW5/HW5_DesignPatterns.pdf)
-* [HW 6: Design Patterns Continued](/CS1337/HW6/HW6_DesignPatternsCont.pdf)
-
-## READMEs
-* [HW 1 readme](/CS1337/HW1/readme.md)
-* [HW 2 readme](/CS1337/HW2/readme.md)
-* [HW 3 readme](/CS1337/HW3/readme.md)
-* [HW 4 readme](/CS1337/HW4/readme.md)
-* [HW 5 readme](/CS1337/HW5/readme.md)
-* [HW 6 readme](/CS1337/HW6/readme.md)
+## Homework Instructions & Readme Files
+* HW 1
+    * [HW 1: Introduction to Multi-File Projects](/CS1337/HW1/HW1_IntroToMultiFileProjects.pdf)
+    * [HW 1 readme](/CS1337/HW1/readme.md)
+* HW 2
+    * [HW 2: Searching and Sorting on Arrays](/CS1337/HW2/HW2_SearchingSortingArrays.pdf)
+    * [HW 2 readme](/CS1337/HW2/readme.md)
+* HW3
+    * [HW 3: Memory Management in C](/CS1337/HW3/HW3_MemMgmtC.pdf)
+    * [HW 3 readme](/CS1337/HW3/readme.md)
+* HW4
+    * [HW 4: Classes, Inheritance, and Polymorphism](/CS1337/HW4/HW4_Classes.pdf)
+    * [HW 4 readme](/CS1337/HW4/readme.md)
+* HW5
+    * [HW 5: Design Patterns](/CS1337/HW5/HW5_DesignPatterns.pdf)
+    * [HW 5 readme](/CS1337/HW5/readme.md)
+* HW6
+    * [HW 6: Design Patterns Continued](/CS1337/HW6/HW6_DesignPatternsCont.pdf)
+    * [HW 6 readme](/CS1337/HW6/readme.md)
 
 ## Notes
 As a learning exercise, some of my code explores alternative designs that go beyond what was required for this course.
