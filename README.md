@@ -32,7 +32,7 @@ To install MinGW on Windows 11 or less, follow [these instructions](/CS1337/Ecli
     * In `System Properties`, go to `Environment Variables`.\
     In `Environment Variables`, look down at `System variables` and scroll until you reach `Path`.\
     Select `Path` and hit `Edit`.
-    * Once you’ve opened `Edit environment variable`, find the file path for Java JDK’s `/bin` folder in your File Explorer and copy it.\
+    * Once you’ve opened `Edit environment variable`, find the file path for MinGW’s `/bin` folder in your File Explorer and copy it.\
     It should look similar to:
     <!-- CODE START -->
     ```
