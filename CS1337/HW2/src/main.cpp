@@ -17,7 +17,7 @@ using namespace std;
 int main()
 {
 
-	// create the input file and its name: the input file provided is ../names.txt
+	// create the input file and its name: the input file provided is names.txt
 	ifstream inputFile;
 	string inputFileName;
 

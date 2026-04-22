@@ -1,22 +1,26 @@
 <!-- To preview this markdown file in VSCode: Ctrl+Shift+V -->
 
-# CS1 Portfolio - Bushra Rahman
-## CS 1337/HW4: Classes, Inheritance, and Polymorphism
-
+# CS1 Portfolio | HW4: Classes, Inheritance, and Polymorphism
+## Author: Bushra Rahman
 This is the repository for [CS 1337/HW4](/CS1337/HW4).
 
 ## Execution Instructions
-Open terminal while in `CS1_Portfolio` and run:
+Open terminal in `CS1_Portfolio` and run:
 <!-- CODE START -->
 ```
-cd CS1337/HW4/src
-g++ Aircraft-Test.cpp Aircraft.cpp AcrobatAircraft.cpp FreightAircraft.cpp PassengerAircraft.cpp
-.\a.exe
+cd CS1337/HW4
+mkdir build
+g++ src/Aircraft-Test.cpp src/Aircraft.cpp src/AcrobatAircraft.cpp src/FreightAircraft.cpp src/PassengerAircraft.cpp -o build/HW4
+build/HW4
 ```
 <!-- CODE END -->
-This compilation instruction produces an executable directly in the `src` folder.
 
-Alternative compilation instructions can be followed, if desired, to produce the executable elsewhere (eg. in a `build` folder).
+For a project like this with more than one or two source files, the wildcard `*.cpp` can be used instead to compile:
+<!-- CODE START -->
+```
+g++ src/*.cpp -o build/HW4
+```
+<!-- CODE END -->
 
 ## Homework Instructions
 * [HW 4: Classes, Inheritance, and Polymorphism](/CS1337/HW4/HW4_Classes.pdf)
@@ -36,6 +40,5 @@ Alternative compilation instructions can be followed, if desired, to produce the
 * [PassengerAircraft.h](/CS1337/HW4/src/PassengerAircraft.h): contains the class definition of a subclass
 
 ## Input Files
-Input files need to be provided using their relative path (ie. with the prefix `../`).
 * [aircraft.txt](/CS1337/HW4/aircraft.txt): input file choice 1 (for standard output)
 * [test.txt](/CS1337/HW4/test.txt): input file choice 2 (for program testing)

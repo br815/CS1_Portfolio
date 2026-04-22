@@ -15,11 +15,11 @@ using namespace std;
 
 int main()
 {
-   // create the input file and its name: the input file provided is ../input.txt
+   // create the input file and its name: the input file provided is input.txt
    ifstream inputFile;
    string inputFileName;
 
-   // create the output file and its name: the output file provided is ../output.txt
+   // create the output file and its name: the output file provided is output.txt
    ofstream outputFile;
    string outputFileName;
 

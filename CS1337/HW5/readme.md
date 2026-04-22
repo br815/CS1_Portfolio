@@ -1,22 +1,25 @@
 <!-- To preview this markdown file in VSCode: Ctrl+Shift+V -->
 
-# CS1 Portfolio - Bushra Rahman
-## CS 1337/HW5: Design Patterns
-
+# CS1 Portfolio | HW5: Design Patterns
+## Author: Bushra Rahman
 This is the repository for [CS 1337/HW5](/CS1337/HW5).
 
 ## Execution Instructions
-Open terminal while in `CS1_Portfolio` and run:
+Open terminal in `CS1_Portfolio` and run:
 <!-- CODE START -->
 ```
-cd CS1337/HW5/src
-g++ LogSingleton-Test.cpp CS1337Logger.cpp FileLogger.cpp ScreenLogger.cpp LogSingleton.cpp
-.\a.exe
+cd CS1337/HW5
+mkdir build
+g++ src/LogSingleton-Test.cpp src/CS1337Logger.cpp src/FileLogger.cpp src/ScreenLogger.cpp src/LogSingleton.cpp -o build/HW5
+build/HW5
 ```
 <!-- CODE END -->
-This compilation instruction produces an executable directly in the `src` folder.
-
-Alternative compilation instructions can be followed, if desired, to produce the executable elsewhere (eg. in a `build` folder).
+For a project like this with more than one or two source files, the wildcard `*.cpp` can be used instead to compile:
+<!-- CODE START -->
+```
+g++ src/*.cpp -o build/HW5
+```
+<!-- CODE END -->
 
 ## Homework Instructions
 * [HW 5: Design Patterns](/CS1337/HW5/HW5_DesignPatterns.pdf)
@@ -36,5 +39,4 @@ Alternative compilation instructions can be followed, if desired, to produce the
 * [LogSingleton.h](/CS1337/HW5/src/LogSingleton.h): contains the class definition of a class, including 1 inline function
 
 ## Output File
-Output files should be created using their relative path (ie. with the prefix `../`).
 * [Log.txt](/CS1337/HW5/Log.txt): output file

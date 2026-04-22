@@ -1,20 +1,25 @@
 <!-- To preview this markdown file in VSCode: Ctrl+Shift+V -->
 
-# CS1 Portfolio - Bushra Rahman
-## CS 1337/HW6: Design Patterns Continued
-
+# CS1 Portfolio | HW6: Design Patterns Continued
+## Author: Bushra Rahman
 This is the repository for [CS 1337/HW6](/CS1337/HW6).
 
 ## Execution Instructions
-Open terminal while in `CS1_Portfolio` and run:
+Open terminal in `CS1_Portfolio` and run:
 <!-- CODE START -->
 ```
-cd CS1337/HW6/src
-g++ main.cpp AbstractObserver.cpp Subject.cpp
-.\a.exe
+cd CS1337/HW6
+mkdir build
+g++ src/main.cpp src/AbstractObserver.cpp src/Subject.cpp -o build/HW6
+build/HW6
 ```
 <!-- CODE END -->
-This compilation instruction produces an executable directly in the `src` folder.
+For a project like this with more than one or two source files, the wildcard `*.cpp` can be used instead to compile:
+<!-- CODE START -->
+```
+g++ src/*.cpp -o build/HW6
+```
+<!-- CODE END -->
 
 Alternative compilation instructions can be followed, if desired, to produce the executable elsewhere (eg. in a `build` folder).
 

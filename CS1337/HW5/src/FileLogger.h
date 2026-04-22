@@ -19,8 +19,8 @@ class FileLogger : public CS1337Logger
 private:
 	// output file stream object
 	ofstream fout;
-	// name of output file
-	const string FILENAME = "../Log.txt";
+	// name the output file: the output file provided is Log.txt
+	const string FILENAME = "Log.txt";
 
 public:
 	// constructor

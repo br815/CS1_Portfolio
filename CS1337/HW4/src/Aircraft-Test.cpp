@@ -496,7 +496,7 @@ void readFileAndBuildAircraft(string inputFileName)
 void testAircraft()
 {
 	ifstream inputFile;
-	// input a file name: the input files provided are ../aircraft.txt or ../test.txt
+	// input a file name: the input files provided are aircraft.txt or test.txt
 	string inputFileName;
 	cout << "Enter the input file name: ";
 	cin >> inputFileName;
