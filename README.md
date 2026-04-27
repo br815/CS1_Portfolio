@@ -72,7 +72,7 @@ g++ src/*.cpp -o build/HW1      # compile executable file into the build folder
 build/HW1                       # provide the build folder as the path to the .exe file
 ```
 <!-- CODE END -->
-C and C++ compilation needs to occur in the directory that contains the `.cpp` or `.c` source files. However, C and C++ execution should occur at the project root (because that is the conventional location from which your program should retrieve any IO files).
+C and C++ compilation & execution can occur from anywhere through the use of relative paths, as long as the compilation instruction specifies the relative path to the `.cpp` or `.c` source files & the execution instruction specifies the relative path to the `.exe` executable file. However, execution *should* occur from the project root (because that is the conventional location from which your program should retrieve any IO files).
 
 In order to achieve both from the project root, this compilation instruction goes through `src/` to compile all `.cpp` source files in [src](/CS1337/HW1/src/). Alternatively, each source file can be compiled individually through their paths:
 <!-- CODE START -->

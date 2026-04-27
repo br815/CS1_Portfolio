@@ -1,7 +1,7 @@
 /*	Author:			Bushra Rahman
 	Course:			CS 1337 (Fall 2019)
 	Date:			9/5/2019
-	amortize.cpp:	This is the source file that contains the definition of the amortize function.
+	amortize.cpp:	This source file contains the definition of the amortize function.
 					The arguments of this function are the output file and the three pieces of data about a single loan payment.
 					The function calculates the number of payments,
 					the amount of each payment,
